@@ -1,0 +1,34 @@
+/* orden de estilos segun profesor
+1. posicionamiente
+2. Modelo de caja (Box model)
+3. tipografia
+4. visuales (shadowbox, border radius por ej)
+5. Otros */ 
+
+:root {
+    /* aca ponemos las variables, 
+    que vamos a usar seguido. 
+    En este caso colores */
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62,5%;
+    /* recordar que es para usar rem en vez de pixeles
+    cuando trabajamos fuentes */
+    font-family: 'DM Sans', sans-serif
+}
