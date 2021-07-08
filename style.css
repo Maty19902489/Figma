@@ -44,6 +44,7 @@ header {
     tamaño de los celulares */
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
 }
 
 header img {
@@ -64,5 +65,20 @@ header img {
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+
+.header--title-container h1 {
+    font-size: 2.4rem; /* son 24 px */
+    font-weight: bold;
+    line-height: 2.6rem; /* es como un salto de linea o altura de fuente */
+    color: var(--just-white);
+}
+
+.header--title-container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
 }
 
