@@ -20,7 +20,7 @@
     --just-white: #fff;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ html {
     font-size: 62,5%;
     /* recordar que es para usar rem en vez de pixeles
     cuando trabajamos fuentes */
-    font-family: 'DM Sans', sans-serif
+    font-family: 'DM Sans', sans-serif;
 }
 
 header {
@@ -44,13 +44,13 @@ header {
     tamaño de los celulares */
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
+    background: linear-gradient(208.83deg, #201E1C 16.69%, #F7931A 100%);;
 }
 
 header img {
     width: 150px;
     height: 24px;
-    margin-top: 64px;
+    margin-top: 50px;
     align-self: center;
     /* forma de centrar a un elemento que tenga un 
     contenedor con displa flex */
@@ -62,7 +62,7 @@ header img {
     min-width: 288px;
     max-width: 900px;
     height: 218px;
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
     align-self: center;
 }
@@ -70,7 +70,7 @@ header img {
 .header--title-container h1 {
     font-size: 2.4rem; /* son 24 px */
     font-weight: bold;
-    line-height: 2.6rem; /* es como un salto de linea o altura de fuente */
+    line-height: 2rem; /* es como un salto de linea o altura de fuente */
     color: var(--just-white);
 }
 
@@ -81,4 +81,37 @@ header img {
     line-height: 1.8rem;
     color: var(--soft-orange);
 }
+
+.header--title-container .header--button {
+    position: absolute;
+    /* en este position se puede mover con top right etc */
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 70px;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header--title-container .header--button span
+{
+    display: inline-block; 
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/Vector.svg");
+    background-position: center;
+    
+}
+
 
