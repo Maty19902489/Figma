@@ -134,3 +134,38 @@ main {
     max-width: 900px;
     margin: 0 auto;
 }
+
+.main-exchange-container .backgroundImg {
+/* para agregar la imagen primero le damos dimensionas 
+al div, asi este es visible. por el momento no tenia */
+width: 200px;
+height: 200px;
+margin: 0 auto;
+margin-bottom: 50px;
+background-image: url("./assets/img/bitcoin.svg");
+/* se va a tratar que esta imagen quede siempre en el centro 
+independientemente del tamaño de la pagina. */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+/* este ultimo back nos sirve para que no se repita
+la imagen. el backImg replica la imagen si  
+esta es mas chica que el contenedor;
+ */
+}
+
+.main-exchange-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-container p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}

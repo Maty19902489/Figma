@@ -32,7 +32,39 @@
              las monedas mas importantes del mundo
          </p>
            <section class="main-tables-container">
-             <div></div>
+             <div class="main-currency-table">
+               <p class="currency-table--title">Monedas</p>
+               <!-- segun la BEM currency-table es el bloque
+               y title el elemento a modificar -->
+               <div class="currency-table--container">
+                 <table>
+                   <!-- tr hace referencia a las filas de 
+                   la tabla. td hace ref a la info que
+                   hay dentro de esa fila -->
+                   <tr>
+                     <td class="table__top-left">Bitcon</td>
+                     <td class="table__top-right table_right">$1.96 <span></span></td>
+                   </tr>
+                   <tr>
+                    <td>Etheureum</td>
+                    <td class="table_right">$0.07</td>
+                   <!--  el table right se lo agrega a todos 
+                    los td que van del lado derecho -->
+                  </tr>
+                  <tr>
+                    <td>Ripple</td>
+                    <td class="table_right">$2.17</td>
+                  </tr>
+                  <tr>
+                    <td class="table__bottom-left">Stellar</td>
+                    <td class="table__bottom-right table_right">$4.96</td>
+                  </tr>
+                 </table>
+               </div>
+             <div class="currency-table--date">
+               <p> <b>Actualizado:</b> 9 de julio a las 21:28</p>
+             </div>
+             </div>
          </section>
        </section>
        <section></section>
