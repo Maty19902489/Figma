@@ -313,3 +313,50 @@ ya que ese contenedor no es visible */
     color: var(--warm-black);
     font-weight: 300px;
  }
+
+
+
+ .main-product-detail {
+     background-color: var(--warm-black);
+     width: 100%;
+     min-width: 320px;
+     position: relative;
+     height: auto; /* definido por el contenido */
+     padding: 20px 10px;
+ }
+
+ .product-detail--batata-logo {
+     position: absolute; /* toma como referencia
+     al padre mas cerano con position relative */
+     width: 40px;
+     height: 25px;
+     background-image: url("./assets/icons/batata.svg");
+     /* a partir de aqui lo vamos a posicionar */
+     top: -10px;
+     left: calc(50% - 20px);
+ }
+
+ .product-detail--title {
+     width: 90%;
+     min-width: 228px;
+     height: auto;
+     margin: 0 auto;
+     margin-top: 50px;
+     text-align: center;
+ }
+
+ .product-detail--title h2 {
+      margin-bottom: 20px;
+      font-size: 2.4rem;
+      font-weight: bold;
+      line-height: 2.6rem;
+      color: var(--just-white);
+ }
+
+ .product-detail--title p {
+     margin-bottom: 20px;
+     font-size: 1.4rem;
+     font-weight: 500;
+     line-height: 1.8rem;
+     color: #808080;
+ }
