@@ -460,14 +460,14 @@ ya que ese contenedor no es visible */
     y generar ese efecto flotante */
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     /* no ponemos 320 porque sino ocuparia
     todo el lugar de su contenedor padre cuando
     se achique la pantalla 
     */
     max-width: 300px;
     height: 250px;
-    margin: 50px 20px 0; 
+    margin: 50px 5px 0; 
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -547,14 +547,14 @@ ya que ese contenedor no es visible */
     y generar ese efecto flotante */
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     /* no ponemos 320 porque sino ocuparia
     todo el lugar de su contenedor padre cuando
     se achique la pantalla 
     */
     max-width: 300px;
     height: 280px;
-    margin: 50px 20px 0; 
+    margin: 50px 5px 0; 
     padding: 0 15px;
     background-color: var(--secondary-blue);
     border-radius: 15px;
@@ -588,14 +588,14 @@ ya que ese contenedor no es visible */
     que seria p, pueda tener position absolute
     y generar ese efecto flotante */
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     /* no ponemos 320 porque sino ocuparia
     todo el lugar de su contenedor padre cuando
     se achique la pantalla 
     */
     max-width: 300px;
     height: 280px;
-    margin: 50px 20px 0; 
+    margin: 50px 5px 0; 
     padding: 0 15px;
     background-color: pink;
     border-radius: 15px;
@@ -634,4 +634,36 @@ ya que ese contenedor no es visible */
    scroll-snap-type: proximity;
    gap: 50px;
    
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150%;
+    background-color: var(--bitcoin-orange);
+}
+footer section {
+    display: flex;
+    /* recordar que con flex ya podemos usar justify content 
+    y align-items */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+footer .letft ul {
+    font-size:1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.letft li {
+    margin: 10px 0;
+}
+
+.left a {
+    text-decoration: none;
+    color: var(--just-white);
+
 }
