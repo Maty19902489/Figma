@@ -458,6 +458,7 @@ ya que ese contenedor no es visible */
     /* lo usamos para que la etiqueta siguiente
     que seria p, pueda tener position absolute
     y generar ese efecto flotante */
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     /* no ponemos 320 porque sino ocuparia
@@ -465,8 +466,8 @@ ya que ese contenedor no es visible */
     se achique la pantalla 
     */
     max-width: 300px;
-    height: 280px;
-    margin: 50px auto 0; 
+    height: 250px;
+    margin: 50px 20px 0; 
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -538,3 +539,99 @@ ya que ese contenedor no es visible */
     height: 20px;
     background-image: url("./assets/icons/right-arrow.svg");
  }
+
+ .plans-container--card2 {
+    position: relative;
+    /* lo usamos para que la etiqueta siguiente
+    que seria p, pueda tener position absolute
+    y generar ese efecto flotante */
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    /* no ponemos 320 porque sino ocuparia
+    todo el lugar de su contenedor padre cuando
+    se achique la pantalla 
+    */
+    max-width: 300px;
+    height: 280px;
+    margin: 50px 20px 0; 
+    padding: 0 15px;
+    background-color: var(--secondary-blue);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+ }
+
+ .plan-card--price2 span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 40px;
+    padding-left: calc(40% - 50px);
+ }
+
+ .plan-card--price2 {
+    padding: 5px 0;
+    font-size: 5.3rem;
+    font-weight: bold;
+    color: black;
+    line-height: 4.3rem;
+}
+
+.plan-card--saving2 {
+  font-size: 1.2rem;
+  color: var(--warm-black); 
+  text-align: center;
+}
+
+.plans-container--card3 {
+    position: relative;
+    /* lo usamos para que la etiqueta siguiente
+    que seria p, pueda tener position absolute
+    y generar ese efecto flotante */
+    width: 70%;
+    min-width: 230px;
+    /* no ponemos 320 porque sino ocuparia
+    todo el lugar de su contenedor padre cuando
+    se achique la pantalla 
+    */
+    max-width: 300px;
+    height: 280px;
+    margin: 50px 20px 0; 
+    padding: 0 15px;
+    background-color: pink;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    scroll-snap-align: center;
+    /* sirve para centrar el elemento que estamos 
+    viendo */
+ }
+
+ .plan-card--price3 span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 40px;
+    padding-left: calc(40% - 50px);
+ }
+
+ .plan-card--price3 {
+    padding: 5px 0;
+    font-size: 5.3rem;
+    font-weight: bold;
+    color: black;
+    line-height: 4.3rem;
+}
+
+.plan-card--saving3 {
+  font-size: 1.2rem;
+  color: var(--warm-black); 
+  text-align: center;
+}
+
+.plans-container--slider {
+    display: flex;
+    height: 326px;
+   overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: proximity;
+   gap: 50px;
+   
+}
