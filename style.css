@@ -200,6 +200,10 @@ esta es mas chica que el contenedor;
     margin-top: 30px;
 }
 
+.main-tables-container {
+    display: flex;
+}
+
 .currency-table--container, 
 .comision-table--container{
     width: 90%0;
