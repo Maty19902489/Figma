@@ -103,7 +103,7 @@ header{
 
 .header__button span{
     display: inline-block;
-    background-image: url('../assets/icons/vector.svg');
+    background-image: url("./assets/icons/logo.svg");
     width: 13px;
     height: 8px;
     background-repeat: no-repeat;
